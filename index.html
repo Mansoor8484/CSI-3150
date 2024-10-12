@@ -13,25 +13,12 @@
     <!-- import for boxicons-->
     <!-- <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" /> -->
     <!-- link to css file-->
-    <!-- <link rel="stylesheet" href="./css/single-portfolio-style.css"> -->
+    <link rel="stylesheet" href="./css/index_styling.css">
   </head>
   <body>
     <header class="navbar">
-      <!-- profile pic-->
-      <img
-        src="./assets/img/1714884446119.jfif"
-        alt="Picture of Jake Mansoor"
-        width="200"
-        height="200"
-      />
       <!-- Logo -->
-      <h1>Jake Mansoor</h1>
-      <h4>
-        "Put on the full armor of God, so that you can take your stand against
-        the devil’s schemes." - St. Paul
-      </h4>
-      <!-- call to action-->
-      <button class="hire-btn">Hire me</button>
+      <h1>Jake {Developer}</h1>
       <!--nav bar-->
       <nav>
         <ul>
@@ -40,47 +27,48 @@
           <li><a href="./html/my_resume.html">Fun Facts</a></li>
         </ul>
       </nav>
+      <!-- call to action-->
+      <button class="hire-btn">Hire me</button>
     </header>
-    <main>
+    <hr>
+    <main class="main">
+      <!-- profile pic-->
+      <img 
+        class="img"
+        src="./assets/img/1714884446119.jfif"
+        alt="Picture of Jake Mansoor"
+        width="200"
+        height="200"
+      />
       <!-- Personal Introduction-->
-      <div>
-        <p>
-          Hello, I am a junior standing student at Oakland University with a
-          3.82 GPA. I possess diverse IT expertise in programming,
-          cybersecurity, and computer networking. I have over a year of
-          professional experience, primarily in IT and cybersecurity. I am
-          actively seeking opportunities in software engineering and
-          cybersecurity. To know more about me, check out my
-          <span><a href="./html/my_resume.html">resume</a></span> and some
-          <span><a href="./html/my_fun_facts.html">fun facts</a></span> about
-          me.
-        </p>
+      <div class="intro">
+        <p>Hello, my name is Jake Mansoor</p>
+        <p>Aspiring <span> software engineer </span> and <span> cybersecurity </span> expert.</p>      
       </div>
       <!-- Personal introduction end-->
 
       <!-- progress to degree-->
-      <section id="progress">
+      <section class="progress">
         <h2>Progress to Degree</h2>
-        <label for="degree-progress">Degree Completion:</label>
-        <progress id="degree-progress" value="75" max="100"></progress>
+        <label for="degree-progress">Degree Completion: </label>
+        <progress class="degree-progress" value="75" max="100"></progress>
         <span>75%</span>
       </section>
       <!-- progress to degree end-->
     </main>
-    <hr />
+    <hr/>
     <footer>
       <div class="contactinfo">
         <h2>Contact Me</h2>
-        <ul>
-          <li>Email: XXXXXXXX@oakland.edu</li>
-          <li>LinkedIn: jakemansoor</li>
-          <li>GitHub: Mansoor8484</li>
-        </ul>
+          <ul>
+            <li><span><i class='bx bxs-envelope'></i></span>Email: jakemansoor@oakland.edu</li>
+            <li>LinkedIn: jakemansoor</li>
+            <li>GitHub: Mansoor8484</li>
+          </ul>
+      <i class="bx bx-copyright">Jake Mansoor, SECS, Oakland University</i>
       </div>
       <!-- copyright -->
-      <center>
-        <i class="bx bx-copyright">Jake Mansoor, SECS, Oakland University</i>
-      </center>
+      
     </footer>
   </body>
 </html>
